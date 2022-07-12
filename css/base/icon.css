@@ -44,4 +44,6 @@
 
 .d-icon-refresh{
     background-image: url(/assets/icon/refresh.png);
+    padding: 16px 16px;
+    background-size: auto;
 }
