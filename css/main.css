@@ -1,0 +1,34 @@
+@import url(./base/button.css);
+@import url(./base/input.css);
+@import url(./base/combobox.css);
+@import url(./base/icon.css);
+@import url(./base/table.css);
+
+body{
+    font-family: GoogleSans Regular;
+    font-size: 13px;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+
+@font-face {
+    font-family: GoogleSans Regular;
+    src: url(../assets/font/GoogleSans-Regular.otf);
+}
+
+@font-face{
+    font-family: GoogleSans Bold;
+    src: url(../assets/font/GoogleSans-Bold.otf)
+}
+
+@font-face {
+    font-family: GoogleSans Italic;
+    src: url(../assets/font/GoogleSans-Italic.otf);
+}
+
+.d-row{
+    margin-top: 8px;
+}

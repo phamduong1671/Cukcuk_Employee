@@ -1,0 +1,17 @@
+.d-input{
+    border: 1px solid #bbb;
+    height: 40px;
+    border-radius: 4px;
+    padding-left: 16px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.d-input::placeholder{
+    font-size: 12px;
+    color: #bbb;
+}
+
+.d-input:focus{
+    border: 1px solid #019160;
+}

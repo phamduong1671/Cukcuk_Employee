@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./css/cukcuk.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="top-nav">
+        <div class="top-nav-left">
+            <div class="top-nav-logo">
+                <div class="icon icon-toggle"></div>
+                <div class="icon logo"></div>
+            </div>
+            <div class="top-nav-filter">
+                <div class="icon logo-bank"></div>
+                <div class="top-nav-combobox">Chi nhánh MISA miền bắc</div>
+                <div class="arrow-down-icon"><i class="fa-solid fa-angle-down"></i></div>
+            </div>
+        </div>
+
+        <div class="top-nav-right">
+            <div class="icon notify-icon"></div>
+            <div class="icon avatar"></div>
+            <div class="name">Phạm Ánh Dương</div>
+            <div class="icon option-icon"></div>
+        </div>
+    </div>
+
+    <div class="content-wrapper">
+        <div class="side-bar">
+            <div class="side-bar-item">
+                <div class="icon item-icon d-icon-document"></div>
+                <div class="item-name">Hồ sơ điện tử</div>
+            </div>
+            <div class="side-bar-item">
+                <div class="icon item-icon d-icon-document"></div>
+                <div class="item-name">Hồ sơ giấy</div>
+            </div>
+            <div class="side-bar-item">
+                <div class="icon item-icon d-icon-report"></div>
+                <div class="item-name">Theo dõi chi</div>
+            </div>
+            <div class="side-bar-item">
+                <div class="icon item-icon d-icon-dashboard"></div>
+                <div class="item-name">Theo dõi đóng</div>
+            </div>
+            <div class="side-bar-item">
+                <div class="icon item-icon d-icon-employee"></div>
+                <div class="item-name">Quản lý lao động</div>
+            </div>
+            <div class="side-bar-item">
+                <div class="icon item-icon d-icon-setting"></div>
+                <div class="item-name">Thiết lập</div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="content-header">
+                <div style="font-weight: bold; font-size: 20px;" class="content-title">Danh sách nhân viên</div>
+                <button class="d-button d-icon d-icon-add">Lập hồ sơ</button>
+            </div>
+            <div class="filter-header">
+                <div class="filter-left">
+                    <input type="text" class="d-input" placeholder="Tìm kiếm theo tên, số hồ sơ">
+                    <div class="unit-combobox">
+                        <select name="units" id="units" class="d-combobox">
+                            <option value="ALL">Tất cả phòng ban</option>
+                            <option value="IT">Công nghệ thông tin</option>
+                            <option value="QC">Kiểm duyệt chất lượng</option>
+                            <option value="BA">Phân tích kinh doanh</option>
+                        </select>
+                    </div>
+                    <div class="unit-combobox">
+                        <select name="role" id="role" class="d-combobox">
+                            <option value="ALL">Tất cả vị trí</option>
+                            <option value="MANAGER">Quản lý</option>
+                            <option value="LEADER">Trưởng nhóm</option>
+                            <option value="MEMBER">Thành viên</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="filter-right">
+                    <button class="d-button-refresh icon d-icon-refresh"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

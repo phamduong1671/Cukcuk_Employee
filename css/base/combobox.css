@@ -1,0 +1,8 @@
+.d-combobox{
+    height: 40px;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    padding-left: 16px;
+    width: 100%;
+    outline: none;
+}
