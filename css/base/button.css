@@ -17,3 +17,33 @@
 .d-button:active{
     background-color: #01B075;
 }
+
+.d-button-delete{
+    height: 32px;
+    border-radius: 4px;
+    background-color: #e9ebee;
+    color: #fff;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    margin-right: 3px;
+}
+
+.d-button-duplicate{
+    height: 32px;
+    border-radius: 4px;
+    background-color: #e9ebee;
+    color: #fff;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    margin-right: 3px;
+}
+
+.d-button-refresh{
+    height: 32px;
+    border-radius: 4px;
+    background-color: #e9ebee;
+    color: #fff;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    margin-right: 3px;
+}

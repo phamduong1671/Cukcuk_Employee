@@ -170,12 +170,3 @@
     display: flex;
     align-items: center;
 }
-
-.d-button-refresh{
-    height: 32px;
-    border-radius: 4px;
-    background-color: #fff;
-    color: #fff;
-    border: 1px solid #bbb;
-    cursor: pointer;
-}

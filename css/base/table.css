@@ -3,8 +3,20 @@ table{
     border-collapse: collapse;
 }
 
-tr>th,td{
-    padding: 0px 16px;
+tr{
+    border-bottom: 1px solid #bbb;
     height: 48px;
+}
+
+tr:nth-child(even){
+    background-color: #e5e5e5;
+}
+
+tr>th, tr>td{
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 0px 12px;
 }
 

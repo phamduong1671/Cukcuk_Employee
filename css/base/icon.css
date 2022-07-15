@@ -45,5 +45,17 @@
 .d-icon-refresh{
     background-image: url(/assets/icon/refresh.png);
     padding: 16px 16px;
-    background-size: auto;
+    background-size: 50%;
+}
+
+.d-icon-duplicate{
+    background-image: url(/assets/icon/duplicate.png);
+    padding: 16px 16px;
+    background-size: contain;
+}
+
+.d-icon-delete{
+    background-image: url(/assets/icon/delete.png);
+    padding: 16px 16px;
+    background-size: 50%;
 }
