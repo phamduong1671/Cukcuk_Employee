@@ -67,7 +67,7 @@
                 <button class="d-button d-icon d-icon-add">Lập hồ sơ</button>
             </div>
             <div class="filter-header">
-                <div class="filter-left">
+                <div class="header-left">
                     <input type="text" class="d-input" placeholder="Tìm kiếm theo tên, số hồ sơ">
                     <div class="unit-combobox">
                         <select name="units" id="units" class="d-combobox">
@@ -86,87 +86,168 @@
                         </select>
                     </div>
                 </div>
-                <div class="filter-right">
+                <div class="header-right">
                     <button class="d-filter-right-btn icon d-icon-delete"></button>
                     <button class="d-filter-right-btn icon d-icon-duplicate"></button>
                     <button class="d-filter-right-btn icon d-icon-refresh"></button>
                 </div>
             </div>
-            <div class="d-row">
+            <div class="d-row d-table">
                 <table>
-                    <tr>
-                        <th>Mã nhân viên</th>
-                        <th>Họ và tên</th>
-                        <th>Giới tính</th>
-                        <th>Ngày sinh</th>
-                        <th>Điện thoại</th>
-                        <th>Email</th>
-                        <th>Chức vụ</th>
-                        <th>Phòng ban</th>
-                        <th style="text-align: right;">Mức lương cơ bản</th>
-                        <th>Tình trạng công việc</th>
-                    </tr>
-                    <tr>
-                        <td>NV-532048</td>
-                        <td>Hồ Văn Long</td>
-                        <td></td>
-                        <td>11/08/1978</td>
-                        <td>0940458449</td>
-                        <td>cuon@example.com</td>
-                        <td>Giám đốc</td>
-                        <td>Phòng Nhân sự</td>
-                        <td style="text-align: right;">17.739.391</td>
-                        <td>Đang thử việc</td>
-                    </tr>
-                    <tr>
-                        <td>NV-548257</td>
-                        <td>Trương Thị Huyền</td>
-                        <td>Khác</td>
-                        <td>25/05/1972</td>
-                        <td>0979366129</td>
-                        <td>misa643@example.com</td>
-                        <td>Thu ngân</td>
-                        <td>Phòng đào tạo</td>
-                        <td style="text-align: right;"></td>
-                        <td>Đang thử việc</td>
-                    </tr>
-                    <tr>
-                        <td>NV-436028</td>
-                        <td>Trần Thị Thảo</td>
-                        <td>Khác</td>
-                        <td>15/08/1952</td>
-                        <td>0945220829</td>
-                        <td>misa993@example.com</td>
-                        <td>Giám đốc</td>
-                        <td>Phòng Công nghệ</td>
-                        <td style="text-align: right;">15.509.169</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>NV-247682</td>
-                        <td>Mai Thị Bích</td>
-                        <td></td>
-                        <td>17/06/1992</td>
-                        <td>0995194059</td>
-                        <td>kute@example.com</td>
-                        <td>Thu ngân</td>
-                        <td>Phòng Marketting</td>
-                        <td style="text-align: right;">16.275.117</td>
-                        <td>Đang thử việc</td>
-                    </tr>
-                    <tr>
-                        <td>NV-311169</td>
-                        <td>Hoàng Mỹ Quỳnh</td>
-                        <td>Nam</td>
-                        <td>07/04/1976</td>
-                        <td>0906666545</td>
-                        <td>tranprir989@example.com</td>
-                        <td>Nhân viên Marketting</td>
-                        <td>Phòng Marketting</td>
-                        <td style="text-align: right;">29.136.796</td>
-                        <td>Đã nghỉ việc</td>
-                    </tr>
+                    <thead>
+                        <tr>
+                            <th>Mã nhân viên</th>
+                            <th>Họ và tên</th>
+                            <th>Giới tính</th>
+                            <th>Ngày sinh</th>
+                            <th>Điện thoại</th>
+                            <th>Email</th>
+                            <th>Chức vụ</th>
+                            <th>Phòng ban</th>
+                            <th style="text-align: right;">Mức lương cơ bản</th>
+                            <th>Tình trạng công việc</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>NV-532048</td>
+                            <td>Hồ Văn Long</td>
+                            <td></td>
+                            <td>11/08/1978</td>
+                            <td>0940458449</td>
+                            <td>cuon@example.com</td>
+                            <td>Giám đốc</td>
+                            <td>Phòng Nhân sự</td>
+                            <td style="text-align: right;">17.739.391</td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td>NV-548257</td>
+                            <td>Trương Thị Huyền</td>
+                            <td>Khác</td>
+                            <td>25/05/1972</td>
+                            <td>0979366129</td>
+                            <td>misa643@example.com</td>
+                            <td>Thu ngân</td>
+                            <td>Phòng đào tạo</td>
+                            <td style="text-align: right;"></td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td>NV-436028</td>
+                            <td>Trần Thị Thảo</td>
+                            <td>Khác</td>
+                            <td>15/08/1952</td>
+                            <td>0945220829</td>
+                            <td>misa993@example.com</td>
+                            <td>Giám đốc</td>
+                            <td>Phòng Công nghệ</td>
+                            <td style="text-align: right;">15.509.169</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>NV-247682</td>
+                            <td>Mai Thị Bích</td>
+                            <td></td>
+                            <td>17/06/1992</td>
+                            <td>0995194059</td>
+                            <td>kute@example.com</td>
+                            <td>Thu ngân</td>
+                            <td>Phòng Marketting</td>
+                            <td style="text-align: right;">16.275.117</td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td>NV-311169</td>
+                            <td>Hoàng Mỹ Quỳnh</td>
+                            <td>Nam</td>
+                            <td>07/04/1976</td>
+                            <td>0906666545</td>
+                            <td>tranprir989@example.com</td>
+                            <td>Nhân viên Marketting</td>
+                            <td>Phòng Marketting</td>
+                            <td style="text-align: right;">29.136.796</td>
+                            <td>Đã nghỉ việc</td>
+                        </tr>
+                        <tr>
+                            <td>NV-311169</td>
+                            <td>Hoàng Mỹ Quỳnh</td>
+                            <td>Nam</td>
+                            <td>07/04/1976</td>
+                            <td>0906666545</td>
+                            <td>tranprir989@example.com</td>
+                            <td>Nhân viên Marketting</td>
+                            <td>Phòng Marketting</td>
+                            <td style="text-align: right;">29.136.796</td>
+                            <td>Đã nghỉ việc</td>
+                        </tr>
+                        <tr>
+                            <td>NV-311169</td>
+                            <td>Hoàng Mỹ Quỳnh</td>
+                            <td>Nam</td>
+                            <td>07/04/1976</td>
+                            <td>0906666545</td>
+                            <td>tranprir989@example.com</td>
+                            <td>Nhân viên Marketting</td>
+                            <td>Phòng Marketting</td>
+                            <td style="text-align: right;">29.136.796</td>
+                            <td>Đã nghỉ việc</td>
+                        </tr>
+                        <tr>
+                            <td>NV-311169</td>
+                            <td>Hoàng Mỹ Quỳnh</td>
+                            <td>Nam</td>
+                            <td>07/04/1976</td>
+                            <td>0906666545</td>
+                            <td>tranprir989@example.com</td>
+                            <td>Nhân viên Marketting</td>
+                            <td>Phòng Marketting</td>
+                            <td style="text-align: right;">29.136.796</td>
+                            <td>Đã nghỉ việc</td>
+                        </tr>
+                        <tr>
+                            <td>NV-311169</td>
+                            <td>Hoàng Mỹ Quỳnh</td>
+                            <td>Nam</td>
+                            <td>07/04/1976</td>
+                            <td>0906666545</td>
+                            <td>tranprir989@example.com</td>
+                            <td>Nhân viên Marketting</td>
+                            <td>Phòng Marketting</td>
+                            <td style="text-align: right;">29.136.796</td>
+                            <td>Đã nghỉ việc</td>
+                        </tr>
+                        <tr>
+                            <td>NV-311169</td>
+                            <td>Hoàng Mỹ Quỳnh</td>
+                            <td>Nam</td>
+                            <td>07/04/1976</td>
+                            <td>0906666545</td>
+                            <td>tranprir989@example.com</td>
+                            <td>Nhân viên Marketting</td>
+                            <td>Phòng Marketting</td>
+                            <td style="text-align: right;">29.136.796</td>
+                            <td>Đã nghỉ việc</td>
+                        </tr>
+                        <tr>
+                            <td>NV-311169</td>
+                            <td>Hoàng Mỹ Quỳnh</td>
+                            <td>Nam</td>
+                            <td>07/04/1976</td>
+                            <td>0906666545</td>
+                            <td>tranprir989@example.com</td>
+                            <td>Nhân viên Marketting</td>
+                            <td>Phòng Marketting</td>
+                            <td style="text-align: right;">29.136.796</td>
+                            <td>Đã nghỉ việc</td>
+                        </tr>
+                    </tbody>
                 </table>
+            </div>
+            <div class="filter-footer">
+                <div class="footer-left"></div>
+                <div class="footer-paging"></div>
+                <div class="footer-roght"></div>
             </div>
         </div>
     </div>

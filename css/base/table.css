@@ -1,18 +1,26 @@
 table{
     width: 100%;
-    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.d-table{
+    overflow-y: auto;
 }
 
 tr{
-    border-bottom: 1px solid #bbb;
     height: 48px;
 }
 
-tr:nth-child(even){
+tbody tr:nth-child(odd){
     background-color: #e5e5e5;
 }
 
+tbody tr:hover{
+    background-color: #2FBE8E;
+}
+
 th,td{
+    border-bottom: 1px solid #bbb;
     text-align: left;
     align-items: center;
     justify-content: center;
