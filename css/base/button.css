@@ -18,7 +18,7 @@
     background-color: #01B075;
 }
 
-.d-button-delete{
+.d-filter-right-btn{
     height: 32px;
     border-radius: 4px;
     background-color: #e9ebee;
@@ -28,22 +28,10 @@
     margin-right: 3px;
 }
 
-.d-button-duplicate{
-    height: 32px;
-    border-radius: 4px;
-    background-color: #e9ebee;
-    color: #fff;
-    border: 1px solid #bbb;
-    cursor: pointer;
-    margin-right: 3px;
+.d-filter-right-btn:hover{
+    background-color: #bbb;
 }
 
-.d-button-refresh{
-    height: 32px;
-    border-radius: 4px;
-    background-color: #e9ebee;
-    color: #fff;
-    border: 1px solid #bbb;
-    cursor: pointer;
-    margin-right: 3px;
+.d-filter-right-btn:active{
+    background-color: #ddd;
 }
