@@ -2,7 +2,7 @@
     border-radius: 4px;
     background-color: #019160;
     height: 40px;
-    color: #ffffff;
+    color: #fff;
     padding-left: 24px;
     padding: 0px 24px 0px 24px;
     border: none;
@@ -34,4 +34,23 @@
 
 .d-filter-right-btn:active{
     background-color: #ddd;
+}
+
+.d-button-paging{
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    background-color: #e5e5e5;
+    color: #000;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    margin: 0px 4px;
+}
+
+.d-button-paging:hover{
+    background-color: #2FBE8E;
+}
+
+.d-button-paging:active{
+    background-color: #019160;
 }

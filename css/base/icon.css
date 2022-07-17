@@ -59,3 +59,7 @@
     padding: 16px 16px;
     background-size: 50%;
 }
+
+.d-icon-firstpage{
+    background-image: url(/assets/icon/btn-firstpage.svg);
+}
