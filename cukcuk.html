@@ -69,21 +69,18 @@
             <div class="filter-header">
                 <div class="header-left">
                     <input type="text" class="d-input" placeholder="Tìm kiếm theo tên, số hồ sơ">
-                    <div class="unit-combobox">
-                        <select name="units" id="units" class="d-combobox">
-                            <option value="ALL">Tất cả phòng ban</option>
-                            <option value="IT">Công nghệ thông tin</option>
-                            <option value="QC">Kiểm duyệt chất lượng</option>
-                            <option value="BA">Phân tích kinh doanh</option>
-                        </select>
-                    </div>
-                    <div class="unit-combobox">
-                        <select name="role" id="role" class="d-combobox">
-                            <option value="ALL">Tất cả vị trí</option>
-                            <option value="MANAGER">Quản lý</option>
-                            <option value="LEADER">Trưởng nhóm</option>
-                            <option value="MEMBER">Thành viên</option>
-                        </select>
+                    <div class="combobox-container">
+                        <div class="input-container">
+                            <input type="text" id="input-combobox" class="d-input-combobox" placeholder="Phòng ban">
+                            <div id="icon-dropdown" class="icon-dropdown" onclick="iconDropDown()"><i id="icon-cbb" style="margin: 0px 12px;" class="fas fa-angle-down"></i></div>
+                        </div>
+                        <div id="combobox-value" class="combobox-value combobox-hide">
+                            <div id="item1" class="combobox-item" onclick="comboboxItem(this.id)">Tất cả phòng ban</div>
+                            <div id="item2" class="combobox-item" onclick="comboboxItem(this.id)">Phòng Nhân sự</div>
+                            <div id="item3" class="combobox-item" onclick="comboboxItem(this.id)">Phòng Đào tạo</div>
+                            <div id="item4" class="combobox-item" onclick="comboboxItem(this.id)">Phòng Công nghệ</div>
+                            <div id="item5" class="combobox-item" onclick="comboboxItem(this.id)">Phòng Maketting</div>
+                        </div>
                     </div>
                 </div>
                 <div class="header-right">
@@ -129,7 +126,7 @@
                             <td>0979366129</td>
                             <td>misa643@example.com</td>
                             <td>Thu ngân</td>
-                            <td>Phòng đào tạo</td>
+                            <td>Phòng Đào tạo</td>
                             <td style="text-align: right;"></td>
                             <td>Đang thử việc</td>
                         </tr>
@@ -249,7 +246,7 @@
                             <td>0960091247</td>
                             <td></td>
                             <td>Nhân viên Marketting</td>
-                            <td>Phòng đào tạo</td>
+                            <td>Phòng Đào tạo</td>
                             <td style="text-align: right;">21.345.061</td>
                             <td>Đã nghỉ việc</td>
                         </tr>
@@ -261,7 +258,7 @@
                             <td>0970952738</td>
                             <td>cuon37@example.com</td>
                             <td>Thu ngân</td>
-                            <td>Phòng đào tạo</td>
+                            <td>Phòng Đào tạo</td>
                             <td style="text-align: right;">10.665.401</td>
                             <td>Đã nghỉ việc</td>
                         </tr>
@@ -332,6 +329,9 @@
             </div>
         </div>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/combobox.js"></script>
 </body>
 
 </html>
